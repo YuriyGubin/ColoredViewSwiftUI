@@ -11,6 +11,7 @@
 		EFDC6A682948A10500C556AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC6A672948A10500C556AF /* ContentView.swift */; };
 		EFDC6A6A2948A10E00C556AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDC6A692948A10E00C556AF /* Assets.xcassets */; };
 		EFDC6A6D2948A10E00C556AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDC6A6C2948A10E00C556AF /* Preview Assets.xcassets */; };
+		EFDC6A742948A29200C556AF /* ColorManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC6A732948A29200C556AF /* ColorManagementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EFDC6A672948A10500C556AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFDC6A692948A10E00C556AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDC6A6C2948A10E00C556AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFDC6A732948A29200C556AF /* ColorManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManagementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EFDC6A652948A10500C556AF /* ColoredViewSwiftUIApp.swift */,
 				EFDC6A672948A10500C556AF /* ContentView.swift */,
+				EFDC6A732948A29200C556AF /* ColorManagementView.swift */,
 				EFDC6A692948A10E00C556AF /* Assets.xcassets */,
 				EFDC6A6B2948A10E00C556AF /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				EFDC6A682948A10500C556AF /* ContentView.swift in Sources */,
 				EFDC6A662948A10500C556AF /* ColoredViewSwiftUIApp.swift in Sources */,
+				EFDC6A742948A29200C556AF /* ColorManagementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

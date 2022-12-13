@@ -12,15 +12,22 @@ struct ColorManagementView: View {
     @State private var sliderValue = 0.0
     @State private var textFieldVavue = ""
     
+    let color: Color
+    
     
     var body: some View {
         
         HStack {
             Text("\(lround(sliderValue))")
                 .frame(width: 40)
-            Slider(value: $sliderValue)
-            TextField("0", text: $textFieldVavue)
+                .foregroundColor(color)
+            Slider(value: $sliderValue, in: 0...255, step: 1)
+                .tint(color)
+            
+            TextField("\(lround(sliderValue))", text: $textFieldVavue)
                 .frame(width: 40)
+                .font(.system(size: 17, weight: .bold))
+                
         }
         .padding()
     }
@@ -28,6 +35,6 @@ struct ColorManagementView: View {
 
 struct ColorManagementView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorManagementView()
+        ColorManagementView(color: .red)
     }
 }
